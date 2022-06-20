@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { HomePageComponent } from './home.page.component';
 
 import { NumberHandlerComponentModule } from './components/controls/number-handler/number.handler.component.module';
+import { TriviaStateModule } from '../../../state-management/trivia/trivia.state.module';
 
 @NgModule({
   declarations: [HomePageComponent],
@@ -15,6 +16,7 @@ import { NumberHandlerComponentModule } from './components/controls/number-handl
         component: HomePageComponent,
       },
     ]),
+    TriviaStateModule,
     // custom components
     NumberHandlerComponentModule,
   ],

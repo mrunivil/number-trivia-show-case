@@ -1,3 +1,5 @@
+{{ (currentNumber$ | async).currentNumber }}
+
 <div style="display:grid;grid-template-columns:1fr 1fr;grid-gap:1rem;">
   <app-number-handler
     label="increase"
@@ -7,6 +9,6 @@
   <app-number-handler
     label="decrease"
     color="blue"
-    (click)="increaseNumber()"
+    (click)="decreaseNumber()"
   ></app-number-handler>
 </div>

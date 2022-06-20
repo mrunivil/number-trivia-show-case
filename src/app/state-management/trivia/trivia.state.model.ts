@@ -1,7 +1,9 @@
+import { NumberTriviaEntity } from '../../core/entity/number.trivia.entity';
+
 export interface ITriviaStateModel {
-  readonly currentNumber: number;
+  readonly currentNumber: NumberTriviaEntity;
 }
 
 export const DEFAULT_TRIVIA_STATE_MODEL: ITriviaStateModel = {
-  currentNumber: 0,
+  currentNumber: { currentNumber: 0 },
 };
