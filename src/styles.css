@@ -1,5 +1,59 @@
 /* Add application styles & imports to this file! */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+}
 .trivia-button {
-  background-color: #fafafa;
-  border-radius: 0.1rem;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 0.4rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+.trivia-button:hover {
+  color: #fafafa;
+}
+
+.trivia-button:hover:active {
+  color: #fafafa;
+}
+
+.violet {
+  border: 2px solid violet;
+  box-shadow: inset 0px 0px 6px violet, inset 0px 0px 4px violet,
+    inset 0px 0px 2px violet, 0px 0px 20px violet, 0px 0px 10px violet,
+    0px 0px 2px violet;
+  color: violet;
+  text-shadow: 0px 0px 4px violet;
+}
+.violet:hover {
+  box-shadow: inset 0px 0px 30px violet, inset 0px 0px 20px violet,
+    0px 0px 20px violet, 0px 0px 10px violet, 0px 0px 2px violet;
+}
+.violet:active {
+  box-shadow: inset 0px 0px 30px #a75da7, inset 0px 0px 20px #a75da7,
+    0px 0px 20px #a75da7, 0px 0px 10px #a75da7, 0px 0px 2px #a75da7;
+  border: 2px solid #c972c9;
+}
+
+.blue {
+  border: 2px solid aquamarine;
+  box-shadow: inset 0px 0px 6px aquamarine, inset 0px 0px 4px aquamarine,
+    inset 0px 0px 2px aquamarine, 0px 0px 20px aquamarine,
+    0px 0px 10px aquamarine, 0px 0px 2px aquamarine;
+  color: aquamarine;
+  text-shadow: 0px 0px 4px aquamarine;
+}
+.blue:hover {
+  box-shadow: inset 0px 0px 30px aquamarine, inset 0px 0px 20px aquamarine,
+    0px 0px 20px aquamarine, 0px 0px 10px aquamarine, 0px 0px 2px aquamarine;
+}
+.blue:active {
+  box-shadow: inset 0px 0px 30px #61c5a4, inset 0px 0px 20px #61c5a4,
+    0px 0px 20px #61c5a4, 0px 0px 10px #61c5a4, 0px 0px 2px #61c5a4;
+  border: 2px solid #56af92;
 }

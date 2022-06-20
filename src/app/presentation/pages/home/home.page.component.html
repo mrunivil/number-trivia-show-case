@@ -1,5 +1,12 @@
-Home is working!
-<app-number-handler
-  label="increase"
-  (handlerClicked)="increaseNumber()"
-></app-number-handler>
+<div style="display:grid;grid-template-columns:1fr 1fr;grid-gap:1rem;">
+  <app-number-handler
+    label="increase"
+    (click)="increaseNumber()"
+  ></app-number-handler>
+
+  <app-number-handler
+    label="decrease"
+    color="blue"
+    (click)="increaseNumber()"
+  ></app-number-handler>
+</div>
